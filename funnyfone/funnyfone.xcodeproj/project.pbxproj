@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B00BE7B1EF427E400678664 /* funnyfone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B00BE791EF427E400678664 /* funnyfone.xcdatamodeld */; };
+		3B15EF0D1EF7347F0042D0C2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00E3041EEEE65F005A39B1 /* DataService.swift */; };
+		3B2741471EF2FB4000325DCD /* Funny Fone Jokes (Txt. DataSerice).txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B2741461EF2FB4000325DCD /* Funny Fone Jokes (Txt. DataSerice).txt */; };
+		3B77785F1EEF4FD0009B0771 /* shadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B77785E1EEF4FD0009B0771 /* shadowView.swift */; };
+		3BF8049B1F05641600D0899B /* black loading background img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BF8049A1F05641600D0899B /* black loading background img.jpg */; };
+		3BF9FAE51EEB0006000D65E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9FAE41EEB0006000D65E2 /* AppDelegate.swift */; };
+		3BF9FAE71EEB0006000D65E2 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9FAE61EEB0006000D65E2 /* SettingsVC.swift */; };
+		3BF9FAEA1EEB0006000D65E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF9FAE81EEB0006000D65E2 /* Main.storyboard */; };
+		3BF9FAEF1EEB0006000D65E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF9FAEE1EEB0006000D65E2 /* Assets.xcassets */; };
+		3BF9FAF21EEB0006000D65E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF9FAF01EEB0006000D65E2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B00BE7A1EF427E400678664 /* funnyfone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = funnyfone.xcdatamodel; sourceTree = "<group>"; };
+		3B00E3041EEEE65F005A39B1 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		3B2741461EF2FB4000325DCD /* Funny Fone Jokes (Txt. DataSerice).txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Funny Fone Jokes (Txt. DataSerice).txt"; sourceTree = "<group>"; };
+		3B77785E1EEF4FD0009B0771 /* shadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shadowView.swift; sourceTree = "<group>"; };
+		3BF8049A1F05641600D0899B /* black loading background img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black loading background img.jpg"; sourceTree = "<group>"; };
+		3BF9FAE11EEB0006000D65E2 /* funnyfone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funnyfone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF9FAE41EEB0006000D65E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BF9FAE61EEB0006000D65E2 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		3BF9FAE91EEB0006000D65E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BF9FAEE1EEB0006000D65E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF9FAF11EEB0006000D65E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BF9FAF31EEB0006000D65E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFA54F51EF9E63000C32D92 /* funnyfone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = funnyfone.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BF9FADE1EEB0006000D65E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF9FAD81EEB0006000D65E2 = {
+			isa = PBXGroup;
+			children = (
+				3BF9FAE31EEB0006000D65E2 /* funnyfone */,
+				3BF9FAE21EEB0006000D65E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BF9FAE21EEB0006000D65E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF9FAE11EEB0006000D65E2 /* funnyfone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BF9FAE31EEB0006000D65E2 /* funnyfone */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA54F61EF9E6B100C32D92 /* Model */,
+				3BFA54F81EF9E6CD00C32D92 /* View */,
+				3BFA54F71EF9E6B900C32D92 /* Controller */,
+				3BF9FAE81EEB0006000D65E2 /* Main.storyboard */,
+				3BF9FAF01EEB0006000D65E2 /* LaunchScreen.storyboard */,
+				3B2741461EF2FB4000325DCD /* Funny Fone Jokes (Txt. DataSerice).txt */,
+				3BF9FAF31EEB0006000D65E2 /* Info.plist */,
+				3B00BE791EF427E400678664 /* funnyfone.xcdatamodeld */,
+				3BF8049A1F05641600D0899B /* black loading background img.jpg */,
+				3BFA54F51EF9E63000C32D92 /* funnyfone.entitlements */,
+				3BF9FAEE1EEB0006000D65E2 /* Assets.xcassets */,
+			);
+			path = funnyfone;
+			sourceTree = "<group>";
+		};
+		3BFA54F61EF9E6B100C32D92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B00E3041EEEE65F005A39B1 /* DataService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3BFA54F71EF9E6B900C32D92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BF9FAE41EEB0006000D65E2 /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3BFA54F81EF9E6CD00C32D92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BF9FAE61EEB0006000D65E2 /* SettingsVC.swift */,
+				3B77785E1EEF4FD0009B0771 /* shadowView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BF9FAE01EEB0006000D65E2 /* funnyfone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BF9FAF61EEB0006000D65E2 /* Build configuration list for PBXNativeTarget "funnyfone" */;
+			buildPhases = (
+				3BF9FADD1EEB0006000D65E2 /* Sources */,
+				3BF9FADE1EEB0006000D65E2 /* Frameworks */,
+				3BF9FADF1EEB0006000D65E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = funnyfone;
+			productName = funnyfone;
+			productReference = 3BF9FAE11EEB0006000D65E2 /* funnyfone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BF9FAD91EEB0006000D65E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "William Rodman";
+				TargetAttributes = {
+					3BF9FAE01EEB0006000D65E2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 48FWY35CAA;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3BF9FADC1EEB0006000D65E2 /* Build configuration list for PBXProject "funnyfone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BF9FAD81EEB0006000D65E2;
+			productRefGroup = 3BF9FAE21EEB0006000D65E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BF9FAE01EEB0006000D65E2 /* funnyfone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BF9FADF1EEB0006000D65E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF8049B1F05641600D0899B /* black loading background img.jpg in Resources */,
+				3B2741471EF2FB4000325DCD /* Funny Fone Jokes (Txt. DataSerice).txt in Resources */,
+				3BF9FAF21EEB0006000D65E2 /* LaunchScreen.storyboard in Resources */,
+				3BF9FAEF1EEB0006000D65E2 /* Assets.xcassets in Resources */,
+				3BF9FAEA1EEB0006000D65E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BF9FADD1EEB0006000D65E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF9FAE71EEB0006000D65E2 /* SettingsVC.swift in Sources */,
+				3B00BE7B1EF427E400678664 /* funnyfone.xcdatamodeld in Sources */,
+				3BF9FAE51EEB0006000D65E2 /* AppDelegate.swift in Sources */,
+				3B77785F1EEF4FD0009B0771 /* shadowView.swift in Sources */,
+				3B15EF0D1EF7347F0042D0C2 /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BF9FAE81EEB0006000D65E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BF9FAE91EEB0006000D65E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BF9FAF01EEB0006000D65E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BF9FAF11EEB0006000D65E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BF9FAF41EEB0006000D65E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BF9FAF51EEB0006000D65E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BF9FAF71EEB0006000D65E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = funnyfone/funnyfone.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 48FWY35CAA;
+				INFOPLIST_FILE = funnyfone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamRodman.funnyfone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3BF9FAF81EEB0006000D65E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = funnyfone/funnyfone.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 48FWY35CAA;
+				INFOPLIST_FILE = funnyfone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamRodman.funnyfone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BF9FADC1EEB0006000D65E2 /* Build configuration list for PBXProject "funnyfone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF9FAF41EEB0006000D65E2 /* Debug */,
+				3BF9FAF51EEB0006000D65E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BF9FAF61EEB0006000D65E2 /* Build configuration list for PBXNativeTarget "funnyfone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF9FAF71EEB0006000D65E2 /* Debug */,
+				3BF9FAF81EEB0006000D65E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B00BE791EF427E400678664 /* funnyfone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B00BE7A1EF427E400678664 /* funnyfone.xcdatamodel */,
+			);
+			currentVersion = 3B00BE7A1EF427E400678664 /* funnyfone.xcdatamodel */;
+			path = funnyfone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BF9FAD91EEB0006000D65E2 /* Project object */;
+}
